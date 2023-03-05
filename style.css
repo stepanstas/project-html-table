@@ -38,6 +38,7 @@ caption {
 }
 
 thead {
+    border-top: 3px solid #f0f0f0;
     border-bottom: 3px solid #f0f0f0;
     color: #595959;
     overflow: hidden;
@@ -52,7 +53,7 @@ tbody tr {
     text-align: center;
 }
 
-tbody tr:not(:last-child) {
+tbody tr {
     border-bottom: 3px solid #f0f0f0;
 }
 
